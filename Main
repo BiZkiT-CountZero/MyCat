@@ -1,0 +1,19 @@
+package com.gmail.bizkit245;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Cat cat1 = new Cat("Barsik", "Grey", 5.4, 4, "Chicken");
+
+		cat1.voice();
+		cat1.act();
+		System.out.println(cat1);
+
+		Cat cat2 = new Cat("Feona", "Silver black", 4.2, 3, "Shesire");
+
+		System.out.println(cat2);
+		cat2.voice();
+	}
+
+}
